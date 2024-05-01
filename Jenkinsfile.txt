@@ -3,7 +3,7 @@ pipeline {
      stages {
         stage('Build') {
             steps {
-                //added comment test.
+                //added comment test.........
                 script {
                     echo 'Building JavaScript project...'
                 }
