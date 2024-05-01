@@ -1,12 +1,5 @@
 pipeline {
     agent any
-    
-    environment {
-        DIRECTORY_PATH = "https://github.com/SaumiPatel/sit725-2023-t1-prac2"
-        TESTING_ENVIRONMENT = "testing_environment"
-        PRODUCTION_ENVIRONMENT = "Saumil" 
-    }
-    
      stages {
         stage('Build') {
             steps {
